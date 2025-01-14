@@ -1,0 +1,81 @@
+.usercard {
+  width: 100vw;
+}
+
+.usercard header {
+  width: 100vw;
+  background-color: aqua;
+}
+
+.usercard div {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.usercard ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.usercard li {
+  list-style: none;
+}
+
+.active {
+  color: red;
+}
+
+.usercard form {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 50px auto;
+}
+
+.usercard input {
+  width: 100%;
+  height: 40px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.usercard button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.managecard {
+  padding: 20px;
+  background-color: aqua;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.managecard img {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.managecard span {
+  font-weight: 400;
+}
