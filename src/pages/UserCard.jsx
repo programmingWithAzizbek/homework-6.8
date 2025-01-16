@@ -67,6 +67,9 @@ function UserCard() {
               <li>
                 <NavLink to={"/usercard"}>UserCard</NavLink>
               </li>
+              <li>
+                <NavLink to={"/proinv"}>ProInv</NavLink>
+              </li>
             </ul>
           </nav>
         </div>
